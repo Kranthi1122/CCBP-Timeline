@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.course-head {
+  color: #2b237c;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+.course-description {
+  margin-top: 0px;
+}
+.tags-para {
+  background-color: #afd1fd;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .tags-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .large-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+}
